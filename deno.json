@@ -1,0 +1,6 @@
+{
+    "tasks": {
+        "build": "deno compile  --allow-ffi --allow-read   --output ./main  ./main.ts --standalone ",
+        "run": "deno run --allow-ffi --allow-read  ./main.ts"
+    }
+}
